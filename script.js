@@ -1,5 +1,12 @@
-function firstChar(text) {
+function firstChar(str) {
   // your code here
+	 str = str.trim();
+
+  // If the trimmed string is empty, return an empty string
+  if (str.length === 0) return '';
+
+  // Return the first character
+  return str[0];
 }
 
 // Do not change the code below
