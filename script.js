@@ -1,15 +1,15 @@
-function firstChar(str) {
+function firstChar(text) {
   // your code here
-	 str = str.trim();
+	 text = text.trim();
 
   // If the trimmed string is empty, return an empty string
-  if (str.length === 0) return '';
+  if (text.length === 0) return '';
 
   // Return the first character
-  return str[0];
+  return text[0];
 }
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
 //const text = prompt("Enter text:");
-alert(firstChar(str));
+alert(firstChar(text));
